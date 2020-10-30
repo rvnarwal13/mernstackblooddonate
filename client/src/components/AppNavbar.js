@@ -186,7 +186,8 @@ class AppNavbar extends Component {
                                 <Form onSubmit={()=>{
                                     const email = document.getElementById('email').value;
                                     const password = document.getElementById('password').value;
-                                    if(email=='rvnawal13@gmail.com' && password=='ravi123') {
+                                    if(email=='rvnarwal13@gmail.com' && password=='ravi123') {
+                                        alert('Login Successful');
                                         document.getElementById('logIN').innerHTML='Logout';
                                     } else {
                                         alert('Invalid Email or Password');
