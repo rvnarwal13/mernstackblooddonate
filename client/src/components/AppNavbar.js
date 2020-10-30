@@ -60,7 +60,7 @@ class AppNavbar extends Component {
                 <Navbar color="dark" dark expand="sm" className="mb-5">
                     <Container>
                         <NavbarBrand href="/">
-                            Blood Bank
+                            Life-Line Blood Bank
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggle}></NavbarToggler>
                         <Collapse isOpen={this.state.isOpen} navbar>
@@ -112,7 +112,7 @@ class AppNavbar extends Component {
                                         type="text"
                                         name="Contact"
                                         id="item"
-                                        placeholder="Enter Your Name"
+                                        placeholder="Enter Your Contact"
                                         onChange={this.onChange}
                                     ></Input>
                                     <Button 
@@ -162,8 +162,8 @@ class AppNavbar extends Component {
                                     Contact
                                 </ModalHeader>
                                 <ModalBody>
-                                    Email: rvnarwal13@gmail.com  <br />
-                                    Email: mba.sagar1@gmail.com
+                                    HID:H14637 Email: rvnarwal13@gmail.com  <br />
+                                    HID:H6283 Email: mba.sagar1@gmail.com
                                 </ModalBody>
                                 </Modal>
                             </Nav>
@@ -223,7 +223,7 @@ class AppNavbar extends Component {
                             </Nav>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="https://github.com/rvnarwal13">
+                                    <NavLink href="https://github.com/rvnarwal13/mernstackblooddonate">
                                         Github
                                     </NavLink>
                                 </NavItem>
